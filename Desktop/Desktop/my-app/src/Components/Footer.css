@@ -1,0 +1,24 @@
+.Box{
+    padding: 10px;
+    padding-top: 100px;
+    height: 50px;
+}
+.Footer{
+   width: 100%;
+   height: 60px;
+   padding-top: 15px;
+   padding-left: 40px;
+   padding-right: 40px;
+  
+   background-color: rgb(231, 122, 140);
+   margin-bottom: 50%;
+
+}
+.Foot{
+    display: flex;
+}
+.RightFoot{
+    display: flex;
+    position: absolute;
+    right: 5%;
+}

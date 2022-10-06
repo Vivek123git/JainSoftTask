@@ -1,0 +1,59 @@
+
+.Top{
+    display: flex;
+}
+.FirstCart{
+    width: 23%;
+    /* padding: 26px; */
+    margin: 20px;
+    border: 1px solid white;
+    background-color: pink;
+}
+.Cart{
+   margin-bottom: -15px;
+}
+.firstLine{
+    display: flex;
+    padding: 10px;
+    font-size: large;
+    font-style: italic;
+    color: white;
+}
+.CartImg img{
+    background-color: transparent;
+    width: 100%;
+}
+.Para{
+    font-style: italic;
+    font-size: large;
+    color: white;
+    padding: 5px;
+}
+.Cart button {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .Cart button:hover {
+    opacity: 0.7;
+  }
+  .Ship{
+    position: relative;
+    right: -50%;
+  }
+  .Popular{
+    background-image: linear-gradient(to left, #edc8c8,rgb(231, 214, 217) );
+    padding: 100px;
+   
+    color: orange;
+  }
